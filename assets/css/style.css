@@ -534,7 +534,9 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
-
+.audio-sec {
+  text-align: center;
+}
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -543,6 +545,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #37517e;
+  animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
 }
 
 .section-title h2::before {
@@ -1869,15 +1872,15 @@ section {
   width: 100%;
 }
 
-.our-services .progress-skill-bar span {
+/* .our-services .progress-skill-bar span {
   position: absolute;
   top: 0;
   font-size: 18px;
   font-weight: 600;
   color: #03a4ed;
-}
+} */
 
-.our-services .first-bar span {
+/* .our-services .first-bar span {
   left: 69%;
 }
 
@@ -1887,7 +1890,7 @@ section {
 
 .our-services .third-bar span {
   left: 88%;
-}
+} */
 
 .our-services .progress-skill-bar h4 {
   font-size: 18px;
@@ -2127,6 +2130,13 @@ Copyright (c) 2014 Daniel Eden
   font-style: oblique;
   margin-left: 17px;
   color: #beb8b8;
+}
+.list-rows-all h4 {
+  display: flex;
+  gap: 12px;
+}
+#hero .animated {
+  animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
 }
 @media (max-width: 1366px) {
   /* #services {
