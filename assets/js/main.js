@@ -260,7 +260,7 @@
   });
   function playaudioRecord() {
     // console.log("vinod vinod");
-    // var audio = document.getElementById("myAudio");
+    // document.getElementById("main-home-Image")?.click();
     // console.log("audioaudio", audio);
     // // Pause the audio
     // audio.play();
