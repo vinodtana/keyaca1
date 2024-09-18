@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Pragyan Academy of Learning</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="./fav_icon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/newstyles.css" rel="stylesheet">
+    <link href="assets/css/animation.css" rel="stylesheet">
+    <script type="text/javascript">
+        (function (f, b) {
+            if (!b.__SV) {
+                var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) {
+                    function g(a, d) { var b = d.split("."); 2 == b.length && (a = a[b[0]], d = b[1]); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))) } } var a = b; "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel"; a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d }; a.people.toString = function () { return a.toString(1) + ".people (stub)" }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+                    for (h = 0; h < i.length; h++)g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]) } } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++)b(j[c]); return d }; b._i.push([e, f, c])
+                }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+                    MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g)
+            }
+        })(document, window.mixpanel || []);
+
+        // Enabling the debug mode flag is useful during implementation,
+        // but it's recommended you remove it for production
+        mixpanel.init('054dca6e9932ffce0c2ddfe807280ade', { debug: true });
+        mixpanel.track('Page_on_loaded');
+    </script>
+</head>
+
+<body onclick="bodyClickSection()">
+
+    <div class="audio-sec">
+        <audio id="myAudio" autoplay>
+            <source src="./complete-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+
+    </div>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto top-logo-left"><a href="index.html">Pragyan</a>
+                <span>Learning Academy</span>
+            </h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+                    <li class="dropdown"><a class="nav-link scrollto" href="#Future-Business">Our Programs</a>
+
+                        <ul>
+                            <li><a href="./index.html">Global Certification</a></li>
+                            <li><a href="./pgdm.html">PGDM in Fintech</a></li>
+                            <li><a href="./fintechBootCamp.html">Fintech BootCamp</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="nav-link   scrollto" href="#Blogs">Blogs</a></li>
+                    <li><a class="nav-link scrollto" href="#ProgramDirectors">Team</a></li>
+
+
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="getstarted scrollto" href="#contact">Contact Us</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div
+                    class="home-page-main-con col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+                    <h1>PGDM in Fintech & Financial Analyitics</h1>
+                    <h5>Transform your career with a comprehensive program designed to equip you with the cutting-edge
+                        skills needed to navigate the exciting world of financial technology</h5>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#contact" class="btn-get-started apply-now-btn scrollto">Apply Now</a>
+                        <a href="#contact" class="btn-get-started explore-now-btn scrollto">Explore Now</a>
+                        <!-- <a href="https://www.youtube.com/watch?v=u20nD9wBVJo" class="glightbox btn-watch-video"><i
+                                class="bi bi-play-circle"></i><span>Apply Now</span></a> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img ">
+                    <img src="assets/images/Picture1.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <div class="new-main">
+            <div class="program-overview-section">
+                <div class="d-flex program-overview-section-con">
+                    <div>
+                        <h2>Program Overview</h2>
+                        <p>This cutting-edge program equips MBA aspirants with the skills to excel in the rapidly
+                            evolving
+                            financial technology sector. Covering a comprehensive range of topics from Digital Banking
+                            and
+                            AI to Blockchain and RegTech, students will gain hands-on experience with the latest
+                            financial
+                            technologies and analytical tools. The curriculum bridges traditional finance with
+                            innovative
+                            tech solutions, preparing graduates for leadership roles in fintech startups, established
+                            financial institutions, and consulting firms. By mastering both financial principles and
+                            emerging technologies, students will be well-positioned to drive digital transformation and
+                            shape the future of finance.</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/Frame 1707482277.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="program-objectives">
+                <div class="program-objectives-con">
+                    <h2>Program Objectives</h2>
+                    <div class="po-content-all">
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/creative-thinking 1.png" class="img-fluid" alt=""></div>
+                            <h4>Equip Students with Industry-Ready Skills</h4>
+                            <p>Provide comprehensive knowledge and practical skills in key fintech areas such as Digital
+                                Banking, Artificial Intelligence, Blockchain, and Regulatory Technology, ensuring that
+                                students are ready to excel in real-world environments.</p>
+                        </div>
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/hand 1.png" class="img-fluid" alt=""></div>
+                            <h4>Bridge Finance and Technology</h4>
+                            <p>Prepare students to integrate traditional financial principles with cutting-edge
+                                technological innovations, enabling them to develop transformative financial solutions
+                                in a dynamic, tech-driven marketplace.</p>
+                        </div>
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/idea 1.png" class="img-fluid" alt=""></div>
+                            <h4>Develop Problem-Solving and Analytical Expertise</h4>
+                            <p>Foster critical thinking, problem-solving, and analytical skills to address complex
+                                financial challenges using advanced financial models and tools.</p>
+                        </div>
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/team-leader 1.png" class="img-fluid" alt=""></div>
+                            <h4>Promote Leadership and Innovation</h4>
+                            <p>Cultivate leadership & innovation abilities by immersing students in practical projects &
+                                real-time learning, ensuring they can lead digital transformation initiatives in both
+                                startups and established institutions.</p>
+                        </div>
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/transaction 1.png" class="img-fluid" alt=""></div>
+                            <h4>Foster a Global Fintech Perspective</h4>
+                            <p>Provide a global outlook on fintech developments, empowering students with the knowledge
+                                and skills to operate in diverse markets and drive global financial innovation.</p>
+                        </div>
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/entrepreneurial 1.png" class="img-fluid" alt=""></div>
+                            <h4>Encourage Entrepreneurial Mindset</h4>
+                            <p>Inspire students to pursue entrepreneurial ventures within the fintech space by offering
+                                startup guidance, networking opportunities, and exposure to venture capital investors.
+                            </p>
+                        </div>
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/risk-management 1.png" class="img-fluid" alt=""></div>
+                            <h4>Emphasize Compliance and Risk Management</h4>
+                            <p>Ensure a strong understanding of regulatory frameworks and risk management in financial
+                                technology, preparing students to navigate compliance challenges and develop secure,
+                                compliant fintech solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="course-highlights-section">
+                <h2 class="align-center">Program Objectives</h2>
+                <div class="course-highlights-con program-bjectives-con">
+
+                    <div class="course-highlights-con-left">
+
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/expert 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>Expert-Driven Curriculum</h6>
+                                <p>Designed with insights from industry specialists, fintech founders, and venture
+                                    capital investors to ensure cutting-edge learning.</p>
+                            </div>
+                        </div>
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/badge 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>Top-Tier Faculty</h6>
+                                <p>Learn from a distinguished team of domain experts, fintech entrepreneurs, and
+                                    practicing financial analysts.</p>
+                            </div>
+                        </div>
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/consultation 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>Comprehensive Capstone Experience</h6>
+                                <p>Includes hands-on guidance for startups, investor meetups, and potential funding
+                                    opportunities.</p>
+                            </div>
+                        </div>
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/job-offer 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>Exclusive Placement Opportunities</h6>
+                                <p>Participate in on-campus FinTech placement drives, connecting with leading firms in
+                                    the industry.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="course-highlights-con-right">
+
+                        <img src="assets/images/image 125.png" class="img-fluid" alt="">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="course-content-section">
+                <h2 class="align-center">Course Content</h2>
+                <div class="course-content-con">
+                    <div class="po-content-all">
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/robotic-process-automation-illustration 1.png"
+                                    class="img-fluid" alt=""></div>
+                            <h4>Trimester-1</h4>
+                            <p><img src="assets/images/fintech 1.png" class="img-fluid" alt=""> FinTech
+                                Ecosystem</p>
+                            <p><img src="assets/images/digital-exchange (1) 1.png" class="img-fluid" alt=""> Digital
+                                Banking &
+                                PaymentsTech</p>
+                            <p><img src="assets/images/ai 1.png" class="img-fluid" alt=""> Artificial Intelligence
+                            </p>
+                            <p><img src="assets/images/data-modelling 1.png" class="img-fluid" alt=""> Advanced
+                                Financial
+                                Modelling</p>
+                        </div>
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/image 131.png" class="img-fluid" alt=""></div>
+                            <h4>Trimester-2</h4>
+                            <p><img src="assets/images/startup 1.png" class="img-fluid" alt=""> FinTech Ecosystem</p>
+                            <p><img src="assets/images/crowdfunding 1.png" class="img-fluid" alt=""> Digital Banking &
+                                PaymentsTech</p>
+                            <p><img src="assets/images/blockchain 1.png" class="img-fluid" alt=""> Artificial
+                                Intelligence
+                            </p>
+                            <p><img src="assets/images/monitor 1.png" class="img-fluid" alt=""> Advanced Financial
+                                Modelling</p>
+                        </div>
+                        <div class="po-content-row">
+                            <div> <img src="assets/images/image 132.png" class="img-fluid" alt=""></div>
+                            <h4>Trimester-3</h4>
+                            <p><img src="assets/images/compliant 1.png" class="img-fluid" alt=""> FinTech Ecosystem</p>
+                            <p><img src="assets/images/wealth 1.png" class="img-fluid" alt=""> Digital
+                                Banking &
+                                PaymentsTech</p>
+                            <p><img src="assets/images/internet-of-things 1.png" class="img-fluid" alt=""> Artificial
+                                Intelligence
+                            </p>
+                            <p><img src="assets/images/deep-learning 1.png" class="img-fluid" alt=""> Advanced Financial
+                                Modelling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="course-structure-section">
+                <h2 class="align-center">Course Structure</h2>
+                <div class="course-structure-con">
+                    <div class="po-content-all">
+                        <div class="po-structure-row">
+                            <div> <img src="assets/images/live 1.png" class="img-fluid" alt=""></div>
+                            <h4>30 Hours of Live Classroom  Interactions</h4>
+                            <p>Engage directly with instructors and peers in dynamic sessions. (Total: 360 hours)</p>
+
+                        </div>
+                        <div class="po-structure-row">
+                            <div> <img src="assets/images/online-learning 1.png" class="img-fluid" alt=""></div>
+                            <h4>30 Hours of Live Classroom  Interactions</h4>
+                            <p>Engage directly with instructors and peers in dynamic sessions. (Total: 360 hours)</p>
+
+                        </div>
+                        <div class="po-structure-row">
+                            <div> <img src="assets/images/education 1.png" class="img-fluid" alt=""></div>
+                            <h4>30 Hours of Live Classroom  Interactions</h4>
+                            <p>Engage directly with instructors and peers in dynamic sessions. (Total: 360 hours)</p>
+
+                        </div>
+                        <div class="po-structure-row">
+                            <div> <img src="assets/images/graduation 1.png" class="img-fluid" alt=""></div>
+                            <h4>30 Hours of Live Classroom  Interactions</h4>
+                            <p>Engage directly with instructors and peers in dynamic sessions. (Total: 360 hours)</p>
+
+                        </div>
+                        <div class="po-structure-row">
+                            <div> <img src="assets/images/project-management 1.png" class="img-fluid" alt=""></div>
+                            <h4>30 Hours of Live Classroom  Interactions</h4>
+                            <p>Engage directly with instructors and peers in dynamic sessions. (Total: 360 hours)</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="course-structure-section value-additions-con">
+                <h2 class="align-center">Value Additions</h2>
+                <p class="Value-Additions-text">Alongside the core classroom sessions, our program offers a range of
+                    exclusive events designed to
+                    enrich your learning experience</p>
+                <div class="course-highlights-con">
+                    <div class="course-highlights-con-right">
+
+                        <img src="assets/images/image 128.png" class="img-fluid" alt="">
+
+                    </div>
+
+                    <div class="course-highlights-con-left">
+
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/meeting 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>Panel Discussions</h6>
+                                <p>Participate in 3 engaging discussions with leading academic and industry experts in
+                                    FinTech and Financial Analytics.</p>
+                            </div>
+                        </div>
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/factory 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>Industry Visits</h6>
+                                <p>Experience the dynamic environment of FinTech firms through 3 on-site visits. Meet
+                                    founders and gain firsthand insights into their operations.</p>
+                            </div>
+                        </div>
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/seminar 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>FinTech Conference</h6>
+                                <p>Attend a premier conference that unites industry leaders, regulators, academics, and
+                                    researchers to explore the latest trends and developments in FinTech.</p>
+                            </div>
+                        </div>
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/money (1) 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>Startup Funding Drive</h6>
+                                <p>Pitch your FinTech idea in a high-stakes funding drive and attract investment from
+                                    venture capitalists and private equity investors directly on campus.</p>
+                            </div>
+                        </div>
+                        <div class="row-ch-item">
+                            <div>
+                                <img src="assets/images/international 1.png" class="img-fluid" alt="">
+                            </div>
+                            <div>
+                                <h6>International Bootcamp</h6>
+                                <p>Join a 10-day immersive bootcamp at the Singapore FinTech Festival. (Approximate
+                                    cost: INR 150,000).</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="leading-faculty-section">
+                    <div class="leading-faculty-con align-center">
+                        <h2>Leading Faculty</h2>
+                        <div class="po-Leading-Faculty-all">
+                            <div class="po-content-row">
+                                <div> <img src="assets/images/Mask group.png" class="img-fluid" alt=""></div>
+                                <h4>KIRRON BINDHU</h4>
+                                <p>Kirron Bindhu is a distinguished member of the Institute of Cost Accountants of India
+                                    with over 26 years of expertise spanning Accounting, Audit, Taxation, Finance,
+                                    Compliance, Strategy, and International Relations. Recognized for his exceptional
+                                    contributions to academia, Kirron has received the Best Faculty Award from IBMR in
+                                    2013 and NSB in 2014. He has also published research in the International Conference
+                                    Journal of ESC Clermont, an AACSB-accredited institution in France.As a seasoned
+                                    Valuation Consultant and Transaction Advisor, Kirron specializes in mergers and
+                                    acquisitions for MSMEs and serves as a mentor to high-tech startups, focusing on
+                                    financial projections and valuation. His extensive corporate training experience
+                                    includes working with Symbol Technologies, Northern Trust, HP, and other leading
+                                    organizations. Kirron has imparted his knowledge at prestigious institutions such as
+                                    NMIMS, Christ Deemed to be University, Jain Deemed to be University, PES University,
+                                    among others.</p>
+                            </div>
+                            <div class="po-content-row">
+                                <div> <img src="assets/images/Mask group1.png" class="img-fluid" alt=""></div>
+                                <h4>Kiran Kumar K V</h4>
+                                <p>With over 20 years of distinguished experience in banking, academia, and consulting,
+                                    Kiran Kumar K V stands out as a veteran in the FinTech industry. He holds an
+                                    impressive array of qualifications, including a PGDM from SDM-IMD, Mysore, along
+                                    with CFA, CMA, MCOM, and CAIIB credentials.Kiran currently serves as an adjunct and
+                                    visiting faculty member at esteemed institutions such as IIM-Kozhikode, BITS Pilani,
+                                    NMIMS, Masters Union, and several other leading business schools. His academic roles
+                                    are complemented by his consultancy work, where he provides expert guidance to
+                                    FinTech startups across India, Singapore, Chicago, and Japan. His deep industry
+                                    knowledge and strategic insights are pivotal in shaping the future of finance on a
+                                    global scale.His areas of expertise in training encompass Finance, FinTech,
+                                    Financial Analytics, and Risk Management, making him a sought-after expert in these
+                                    domains.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="leading-faculty-section">
+                    <div class="eligibility-criteria-con align-center">
+                        <h2>Eligibility Criteria</h2>
+                        <div class="po-Leading-Faculty-all">
+                            <div class="po-content-row">
+                                <div> <img src="assets/images/task-list 1.png" class="img-fluid" alt=""></div>
+                                <p>Bachelor’s Degree or equivalent (10+2+3 or 10+2+4) or Integrated Masters’ Degree
+                                    (10+2+5)</p>
+                            </div>
+                            <div class="po-content-row">
+                                <div> <img src="assets/images/checklist 1.png" class="img-fluid" alt=""></div>
+                                <h4>Kiran Kumar K V</h4>
+                                <p>Pass a written entrance test</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+    </main>
+
+
+    <footer id="footer">
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Pragyan Academy of Learning</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="assets1/js/owl-carousel.js"></script>
+    <script src="assets1/js/animation.js"></script>
+    <script src="assets1/js/imagesloaded.js"></script>
+    <script src="assets1/js/templatemo-custom.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mycode.js"></script>
+
+</body>
+
+</html>

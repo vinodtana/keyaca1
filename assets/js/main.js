@@ -302,11 +302,11 @@
   });
 })();
 function bodyClickSection() {
-  const valF = window.localStorage.getItem("autoplayVideo");
-  console.log("vinod vinod");
-  if (!valF) {
-    window.localStorage.setItem("autoplayVideo", "done");
-    var audio = document.getElementById("myAudio");
-    audio.play();
-  }
+  // const valF = window.localStorage.getItem("autoplayVideo");
+  // console.log("vinod vinod");
+  // if (!valF) {
+  //   window.localStorage.setItem("autoplayVideo", "done");
+  //   var audio = document.getElementById("myAudio");
+  //   audio.play();
+  // }
 }

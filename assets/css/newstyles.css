@@ -1,0 +1,209 @@
+.program-overview-section {
+  padding: 60px 0px;
+  padding-bottom: 0px;
+}
+.d-flex {
+  display: flex;
+}
+.program-overview-section-con {
+  gap: 80px;
+}
+.program-overview-section-con > div {
+  width: 50%;
+}
+.new-main {
+  padding: 0px 60px;
+  background: #f3f5f9;
+}
+.program-objectives-con {
+  text-align: center;
+}
+.row-ch-item {
+  display: flex;
+  gap: 24px;
+}
+.course-highlights-con-right img {
+  width: 100%;
+}
+.Value-Additions-text {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+.po-content-all {
+  /* margin-top: 50px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.po-Leading-Faculty-all {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.po-content-row {
+  padding: 32px 24px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+}
+.align-center {
+  text-align: center;
+}
+.new-main h2 {
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+.course-highlights-con {
+  display: flex;
+  gap: 50px;
+}
+.course-highlights-con-left {
+  width: 45%;
+}
+.course-highlights-con-right {
+  width: 55%;
+}
+.course-structure-con .po-structure-row {
+  text-align: center;
+}
+.course-structure-con .po-structure-row h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.9px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.course-structure-con .po-structure-row p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: center;
+}
+.course-content-con .po-content-row > div {
+  text-align: center;
+}
+.course-content-con .po-content-row > h4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.course-content-con .po-content-row p img {
+  margin-right: 5px;
+}
+.program-bjectives-con .row-ch-item {
+  margin-bottom: 30px;
+}
+.program-bjectives-con .row-ch-item h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.68px;
+  text-align: left;
+}
+.program-bjectives-con .row-ch-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+.program-bjectives-con .course-highlights-con-right img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 500px;
+}
+.program-objectives-con .po-content-row {
+  text-align: center;
+}
+
+.program-objectives-con .po-content-row h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.68px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.program-objectives-con .po-content-row p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: center;
+}
+.program-overview-section-con h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 69.36px;
+  text-align: left;
+}
+.program-overview-section-con p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;
+}
+.program-overview-section-con img {
+  max-height: 470px;
+}
+#hero .home-page-main-con h1 {
+  font-family: Jost;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 80.92px;
+  text-align: left;
+}
+#hero .home-page-main-con h5 {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+#hero .home-page-main-con .apply-now-btn {
+  background: #d91f26;
+  color: #fff;
+  margin-right: 24px;
+}
+#hero .home-page-main-con .explore-now-btn {
+}
+.value-additions-con .row-ch-item img {
+  max-width: 40px;
+  margin-top: 9px;
+}
+.value-additions-con h6 {
+  color: #2a2a2a;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.value-additions-con p {
+  color: #444;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.value-additions-con .course-highlights-con-right img {
+  max-height: 600px;
+  object-fit: cover;
+}
+.leading-faculty-con h4 {
+  color: #2a2a2a;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.eligibility-criteria-con p {
+  margin-top: 30px;
+  font-size: 24px;
+  padding: 0px 40px;
+}
