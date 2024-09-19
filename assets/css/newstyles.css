@@ -207,3 +207,69 @@
   font-size: 24px;
   padding: 0px 40px;
 }
+.course-structure-all {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.course-structure-all .po-structure-row {
+  width: 30%;
+}
+@media (max-width: 991px) {
+  .new-main {
+    padding: 0px 16px;
+  }
+  .new-main h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .program-overview-section {
+    padding: 30px 0px;
+  }
+  .po-content-all,
+  .po-Leading-Faculty-all,
+  .po-Leading-Faculty-all {
+    grid-template-columns: 1fr;
+  }
+  .course-structure-all {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .course-highlights-con {
+    display: block;
+  }
+  #hero .home-page-main-con h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #hero .home-page-main-con h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.51px;
+  }
+  .program-overview-section-con > div,
+  .course-highlights-con-left,
+  .course-highlights-con-right,
+  .course-structure-all .po-structure-row,
+  .Value-Additions-text {
+    width: 100%;
+  }
+  .program-overview-section-con h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .program-overview-section-con {
+    display: block !important;
+  }
+  .value-additions-con h2 {
+    margin-bottom: 50px;
+  }
+  .eligibility-criteria-con p {
+    padding: 0px;
+  }
+}
