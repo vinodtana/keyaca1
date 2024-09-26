@@ -551,7 +551,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #37517e;
-  animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
+  /* animation: up-down 1.5s ease-in-out infinite alternate-reverse both; */
 }
 
 .section-title h2::before {
@@ -2152,6 +2152,9 @@ Copyright (c) 2014 Daniel Eden
 }
 #IndustryVisits .icon-box {
   padding-bottom: 20px !important;
+}
+.home-page-slider-main h1 {
+  font-weight: 500;
 }
 @media (max-width: 1366px) {
   /* #services {
