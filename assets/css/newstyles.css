@@ -216,6 +216,7 @@
 .course-structure-all .po-structure-row {
   width: 30%;
 }
+
 @media (max-width: 991px) {
   .new-main {
     padding: 0px 16px;

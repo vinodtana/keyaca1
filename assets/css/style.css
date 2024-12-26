@@ -2065,13 +2065,15 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2014 Daniel Eden
 */
 #ProgramDirectors img {
-  overflow: hidden;
-  width: 200px;
-  border-radius: 50%;
-  height: 200px;
-  margin: auto;
+  width: 100%;
+  /* border-radius: 50%; */
+  /* margin: auto; */
   object-fit: cover;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  max-height: 300px;
+}
+#ProgramDirectors .product-overlay-new {
+  padding: 20px;
 }
 #Future-Business .col-lg-4 {
   padding: 20px;
@@ -2090,11 +2092,14 @@ Copyright (c) 2014 Daniel Eden
   padding: 20px;
 }
 #ProgramDirectors h5 {
-  color: #9b9999;
+  color: #3c3c43;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 #ProgramDirectors .product-item {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 50px 30px;
+  /* padding: 20px 30px; */
   transition: all ease-in-out 0.4s;
   background: #fff;
 }
@@ -2121,12 +2126,12 @@ Copyright (c) 2014 Daniel Eden
   background: #fff;
 }
 #CampusVisits .product-overlay-new {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 #CampusVisits img {
   max-height: 230px;
-  height: 230px;
+  /* height: 230px; */
 }
 .top-logo-left span {
   display: flex;

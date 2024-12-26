@@ -1,0 +1,316 @@
+.btn-new-btn {
+  background-color: #d91f26 !important;
+  color: #fff !important;
+  border-radius: 4px !important;
+  height: 40px;
+  padding: 5px 20px;
+  border: none;
+  margin-top: 24px;
+}
+.carousel-item::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.carousel-caption-new {
+  left: 50px;
+}
+.carousel-caption-new * {
+  text-align: left;
+}
+.carousel-caption-new h1,
+.carousel-caption-new p {
+  text-align: left;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.carousel-caption-new p {
+  opacity: 0.5;
+}
+.section-title1 {
+  color: #37517e;
+  font-size: 48px;
+}
+.ml-1 {
+  margin-left: 1rem;
+}
+.ml-2 {
+  margin-left: 2rem;
+}
+#Future-Business {
+  padding-top: 0px;
+}
+.all-items-sec-sec-all {
+  display: grid;
+  gap: 40px;
+  margin-top: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.all-items-sec-sec-all .col-lg-4-new {
+  padding: 32px 24px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+}
+.row-program-directors {
+  display: grid;
+  /* gap: 40px; */
+  /* margin-top: 40px; */
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.row-program-directors .col-md-6 {
+  width: 100%;
+}
+#Future-Business .right-text {
+  text-align: center;
+}
+#Future-Business .right-text img {
+  margin-bottom: 20px;
+}
+.AbouttheCertification-content {
+  display: flex;
+  gap: 30px;
+}
+.AbouttheCertification-content-left {
+  width: 300px;
+}
+.AbouttheCertification-content-left img {
+  width: 300px;
+}
+.AbouttheCertification-content-right {
+  width: calc(100% - 300);
+}
+.AbouttheCertification-content-right h2 {
+  color: #37517e;
+  font-family: Lora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.AbouttheCertification-content-right h3 {
+  color: #37517e;
+
+  font-family: Lora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.AbouttheCertification-content-right-all {
+  display: grid;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.up-op-success-comple-cource h4 {
+  color: #37517e;
+  font-family: Lora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.up-op-success-comple-cource > div {
+  display: flex;
+  gap: 30px;
+}
+.up-op-success-comple-cource > div > div {
+  width: 100%;
+  border-radius: 10px;
+  background: #e0f2fd;
+  padding: 16px;
+}
+.AbouttheCertification-content-right-all h4 {
+  color: #091133;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+.AbouttheCertification-content-right-all p {
+  color: #5d6970;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.up-op-success-comple-cource img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.row-workshops-sec-all {
+  display: grid;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.row-workshops-sec-row-content {
+  padding: 0px 16px;
+  margin-top: 24px;
+}
+.row-workshops-sec-row-content h6 {
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+.row-workshops-sec-row-content h4 {
+  color: var(--Black, #000);
+  /* Heading/H5 */
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+}
+.row-workshops-sec-row-content p {
+  color: var(--Black, #000);
+  /* Text/Regular/Normal */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+#IndustryVisits .icon-box {
+  padding: 24px !important;
+}
+#IndustryVisits .section-title1 > div {
+  margin-top: 40px;
+}
+#CampusVisits .section-title1 > div {
+  margin-top: 40px;
+}
+.all-compas-visits-all {
+  display: grid;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-template-columns: 1fr 1fr;
+}
+.all-compas-visits-all .product-overlay-new {
+  background: #47b2e4;
+  padding-left: 16px;
+  padding-top: 30px;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.all-compas-visits-all h4 {
+  color: #041527;
+  font-family: Lora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.402px; /* 137.008% */
+  letter-spacing: 0.3px;
+}
+.all-compas-visits-all p {
+  color: #041527;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+.all-compas-visits-all .position-relative {
+  display: flex;
+}
+#IndustryVisits h4,
+#IndustryVisits h4 a {
+  color: #2a2a2a;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Lora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Workshops-all-all {
+  display: grid;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+.items-Workshops-all-left {
+  display: grid;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-template-columns: 1fr 1fr;
+}
+#Workshops {
+  padding-top: 0px;
+}
+#Workshops .items-Workshops-all-left h4 img {
+  margin-top: -5px;
+}
+#Workshops .items-Workshops-all-left h4 {
+  color: #2a2a2a;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.all-sec-faq-all {
+  display: flex;
+}
+.all-sec-faq-all .left-sec-faq-all {
+  width: 30%;
+}
+.all-sec-faq-all .right-sec-faq-all {
+  width: 70%;
+}
+.heed-help-sec-all-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.heed-help-sec-all-content > div {
+  display: flex;
+  gap: 12px;
+}
+.heed-help-sec-all-content .text-name-name-sec {
+  color: #1a191e;
+  /* heading/h6 */
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: -0.54px;
+  /* text-decoration-line: underline; */
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.heed-help-sec-all-content .label-name-sec {
+  color: rgba(26, 25, 30, 0.5);
+  /* text/small */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 22.4px */
+}
+@media (max-width: 991px) {
+}
