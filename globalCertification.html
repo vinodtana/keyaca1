@@ -86,7 +86,7 @@
                         </ul>
 
                     </li>
-                    <li><a class="nav-link   scrollto" href="#Blogs">Blogs</a></li>
+                    <li><a class="nav-link   scrollto" href="./blogs.html">Blogs</a></li>
                     <li><a class="nav-link scrollto" href="#ProgramDirectors">Team</a></li>
 
                     <li><a class="getstarted scrollto" href="#contact">Contact</a></li>
@@ -117,52 +117,15 @@
                                     Singapore)
                                 </p>
                                 <p>Certification by​ MDIS, Singapore​</p>
-                                <a href="./globalCertification.html" class="me-222"><button type="button"
-                                        class="btn-new-btn">Apply Now</button></a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contactUsModal"
+                                    class="btn-new-btn">Apply Now</button>
 
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-
             </div>
         </div>
-        <!-- <div class="carousel-item active">
-            <img src="assets/images/main_img_sec.png" class="img-fluid" alt="First slide">
-            <div class="carousel-caption">
-                <div class="container carousel-content-sec">
-                    <h1>Global Certification in ​Future Business Technologies​</h1>
-                    <h5>(International Bootcamp at Singapore)​</h5>
-                    <h5>Certification by​ MDIS, Singapore​</h5>
-                    <div class="d-flex justify-content-center justify-content-lg-start"></div>
-                    <a href="./globalCertification.html" class="me-2"><button type="button"
-                            class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill new-btn-new animated 1fadeInLeft">Apply
-                            Now</button></a>
-                </div>
-
-
-            </div>
-        </div> -->
-
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                    data-aos="fade-up111">
-                    <h1>Global Certification in ​Future Business Technologies​</h1>
-                    <h2>(International Bootcamp at Singapore)​</h2>
-                    <h5>Certification by​ MDIS, Singapore​</h5>
-                    <div class="d-flex justify-content-center justify-content-lg-start">
-                        <a href="#contact" class="btn-get-started scrollto new-btn-new">Apply Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 order-1 order-lg-2 hero-img " data-aos="zoom-in">
-                    <img src="assets/images/main_img_sec.png" class="img-fluid " alt="">
-                </div>
-            </div>
-        </div> -->
-
     </section><!-- End Hero -->
 
     <main id="main">
@@ -964,23 +927,23 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Full Name</label>
-                                    <input id="PRAGYANFUllName" type="text" name="name" class="form-control" id="name"
+                                    <input id="PRAGYANFUllName1" type="text" name="name" class="form-control" id="name"
                                         required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="name">Mobile Number</label>
-                                    <input id="PRAGYANMobileNumber" maxlength="10" type="text" class="form-control"
+                                    <input id="PRAGYANMobileNumber1" maxlength="10" type="text" class="form-control"
                                         name="phonenumber" id="email" required>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="name">Email</label>
-                                <input id="PRAGYANEmail" type="email" class="form-control" name="email" id="subject"
+                                <input id="PRAGYANEmail1" type="email" class="form-control" name="email" id="subject"
                                     required>
                             </div>
                             <div class="form-group">
                                 <label for="name">Message</label>
-                                <textarea id="PRAGYANMessage" class="form-control" name="message" rows="5"
+                                <textarea id="PRAGYANMessage1" class="form-control" name="message" rows="5"
                                     required></textarea>
                             </div>
                             <div class="my-3">
@@ -988,10 +951,10 @@
                                 <div class="error-message"></div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
-                            <div class="col-12 thankyou-get-to-you d-none" id="thankyou-get-to-you">
+                            <div class="col-12 thankyou-get-to-you d-none" id="thankyou-get-to-you1">
                                 <p>Thank you, we will get back to you shortly. </p>
                             </div>
-                            <div class="text-center"><button onclick="handleSubmitForm()" id="sendingmessageBtn"
+                            <div class="text-center"><button onclick="handleSubmitForm1()" id="sendingmessageBtn1"
                                     type="submit">Send Message</button>
                             </div>
                             <!-- </form> -->
@@ -1018,7 +981,62 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
+    <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactUsModalLabel">Contact Us</h5>
+                    <button type="button" id="close-btn-sec-btn-btn" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="php-email-form">
+                        <!-- <form action="#" method="post" role="form" class="php-email-form"> -->
 
+                        <div class="form-group ">
+                            <label for="name">Full Name</label>
+                            <input id="PRAGYANFUllName" type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group ">
+                            <label for="name">Mobile Number</label>
+                            <input id="PRAGYANMobileNumber" maxlength="10" type="text" class="form-control"
+                                name="phonenumber" id="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Email</label>
+                            <input id="PRAGYANEmail" type="email" class="form-control" name="email" id="subject"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea id="PRAGYANMessage" class="form-control" name="message" rows="5"
+                                required></textarea>
+                        </div>
+                        <!-- <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div> -->
+                        <div class="col-12 thankyou-get-to-you d-none" id="thankyou-get-to-you">
+                            <p>Thank you, we will get back to you shortly. </p>
+                        </div>
+
+                        <br />
+                        <div class="text-center sendingmessageBtn-sec"><button onclick="handleSubmitForm()"
+                                id="sendingmessageBtn" type="submit">Send Message</button>
+                        </div>
+
+                        <!-- </form> -->
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send Message</button>
+                        </div> -->
+            </div>
+        </div>
+    </div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>

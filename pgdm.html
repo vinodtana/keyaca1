@@ -26,11 +26,14 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/index.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/newstyles.css" rel="stylesheet">
     <link href="assets/css/animation.css" rel="stylesheet">
+    <link href="assets/css/newstyles1.css" rel="stylesheet">
+
     <script type="text/javascript">
         (function (f, b) {
             if (!b.__SV) {
@@ -89,23 +92,31 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
 
-        <div class="container">
-            <div class="row">
-                <div
-                    class="home-page-main-con col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
-                    <h1>PGDM in Fintech & Financial Analyitics</h1>
-                    <h5>Transform your career with a comprehensive program designed to equip you with the cutting-edge
-                        skills needed to navigate the exciting world of financial technology</h5>
-                    <div class="d-flex justify-content-center justify-content-lg-start">
-                        <a href="#contact" class="btn-get-started apply-now-btn scrollto">Apply Now</a>
-                        <a href="#contact" class="btn-get-started explore-now-btn scrollto">Explore Now</a>
-                        <!-- <a href="https://www.youtube.com/watch?v=u20nD9wBVJo" class="glightbox btn-watch-video"><i
-                                class="bi bi-play-circle"></i><span>Apply Now</span></a> -->
+        <div id="hero11" class="container-fluid px-0 home-page-slider-main">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="assets/images/main_img_sec.png" class="img-fluid" alt="First slide">
+                        <div class="carousel-caption carousel-caption-new">
+                            <div class="container carousel-content">
+                                <!-- <h6 class="text-secondary h4 animated 1fadeInUp">Pragyan learning</h6> -->
+                                <h1 class="">PGDM in Fintech & Financial  Analyitics
+                                </h1>
+                                <p class="">Transform your career with a comprehensive program designed to equip you
+                                    with the cutting-edge skills needed to navigate the exciting world of financial
+                                    technology
+                                </p>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contactUsModal"
+                                    class="btn-new-btn">Apply Now</button>
+
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 hero-img ">
-                    <img src="assets/images/Picture1.png" class="img-fluid" alt="">
-                </div>
+
             </div>
         </div>
 
@@ -193,7 +204,7 @@
                 </div>
             </div>
             <div class="course-highlights-section">
-                <h2 class="align-center">Program Objectives</h2>
+                <h2 class="align-center">Course Highlights</h2>
                 <div class="course-highlights-con program-bjectives-con">
 
                     <div class="course-highlights-con-left">
@@ -492,7 +503,62 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
+    <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactUsModalLabel">Contact Us</h5>
+                    <button type="button" id="close-btn-sec-btn-btn" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="php-email-form">
+                        <!-- <form action="#" method="post" role="form" class="php-email-form"> -->
 
+                        <div class="form-group ">
+                            <label for="name">Full Name</label>
+                            <input id="PRAGYANFUllName" type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group ">
+                            <label for="name">Mobile Number</label>
+                            <input id="PRAGYANMobileNumber" maxlength="10" type="text" class="form-control"
+                                name="phonenumber" id="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Email</label>
+                            <input id="PRAGYANEmail" type="email" class="form-control" name="email" id="subject"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea id="PRAGYANMessage" class="form-control" name="message" rows="5"
+                                required></textarea>
+                        </div>
+                        <!-- <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div> -->
+                        <div class="col-12 thankyou-get-to-you d-none" id="thankyou-get-to-you">
+                            <p>Thank you, we will get back to you shortly. </p>
+                        </div>
+
+                        <br />
+                        <div class="text-center sendingmessageBtn-sec"><button onclick="handleSubmitForm()"
+                                id="sendingmessageBtn" type="submit">Send Message</button>
+                        </div>
+
+                        <!-- </form> -->
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send Message</button>
+                        </div> -->
+            </div>
+        </div>
+    </div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
