@@ -873,4 +873,114 @@
   border-radius: 50%;
 }
 @media (max-width: 991px) {
+  .navbar-mobile .dropdown ul {
+    display: block !important;
+  }
+  .about-pal-sec-list-all > div {
+    padding: 20px;
+  }
+  .about-pal-sec-list-all,
+  .blogs-similar-content-all1,
+  .row-program-directors,
+  .all-items-sec-sec-all,
+  .all-compas-visits-all,
+  .Workshops-all-all,
+  .items-Workshops-all-left,
+  .Day-Breakdown-content-all,
+  .Pragyan-Provides-content-sec-all,
+  .Program-Highlights-sec-content,
+  .blogs-similar-content-all {
+    grid-template-columns: 1fr;
+  }
+  .our-approach-sec-all,
+  .all-sec-faq-all,
+  .CourseOverviewHighlights-content {
+    display: block;
+  }
+  .our-approach-sec-all > div {
+    width: 100%;
+  }
+  .our-approach-sec-row img {
+    width: 100px;
+    object-fit: contain;
+  }
+  .CourseOverviewImages-content img {
+    width: 100%;
+  }
+  .CourseOverviewHighlights-content .Course-sec-Overview {
+    width: 100%;
+    min-width: 100%;
+  }
+  .our-approach-sec-all-right img,
+  .items-Workshops-all-right img {
+    max-width: 100%;
+  }
+  .AbouttheCertification-content-left {
+    display: none;
+  }
+  .AbouttheCertification-content-right-all {
+    grid-template-columns: 1fr 1fr;
+  }
+  .up-op-success-comple-cource > div {
+    display: block;
+  }
+  .up-op-success-comple-cource > div > div {
+    margin-bottom: 20px;
+  }
+  #IndustryVisits .row > .col-xl-3 > div {
+    width: 100%;
+  }
+  section {
+    padding: 30px 0;
+  }
+  #CampusVisits .position-relative {
+    display: block;
+  }
+  #CampusVisits .position-relative p {
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+  }
+  .all-compas-visits-all .product-overlay-new {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+  }
+  #Workshops .items-Workshops-all-left h4 img {
+    object-fit: contain;
+  }
+  .all-sec-faq-all .left-sec-faq-all,
+  .all-sec-faq-all .right-sec-faq-all {
+    width: 100%;
+  }
+  .text-name-name-sec {
+    margin-bottom: 1px;
+  }
+  .Fintech-Bootcamp-sec-content h2 {
+    font-size: 36px;
+  }
+  .CourseOverviewImages-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Program-Highlights-sec {
+    margin-top: 20px;
+  }
+  .CourseOverviewHighlights-content .Program-Highlights-sec {
+    width: 100%;
+  }
+  .Enrollment-Details-content-sec-all > div {
+    display: block;
+  }
+  .enrollment-details-sec-content-all > div {
+    width: 100%;
+  }
+  .enrollment-details-sec-content-all > div > div {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .our-experts-sec-all-row {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
 }
