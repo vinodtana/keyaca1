@@ -791,6 +791,9 @@
 .sendingmessageBtn-sec {
   margin-bottom: 30px;
 }
+.enrollment-details-sec-content-all > div {
+  width: 50%;
+}
 .sendingmessageBtn-sec button {
   border-radius: 12px;
   background: #37517e;
@@ -802,6 +805,72 @@
 }
 .php-email-form .form-group {
   margin-top: 10px;
+}
+.our-experts-sec-all {
+  margin-bottom: 80px;
+}
+.our-experts-sec-all h2 {
+  color: #37517e;
+  text-align: center;
+  font-family: Lora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.our-experts-sec-all p {
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px; /* 121.429% */
+  letter-spacing: 0.1px;
+}
+.our-experts-sec-all-row {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+.experts-sec-all-row-left {
+  width: 250px;
+}
+.our-experts-sec-all-row h5 {
+  color: var(--color-text-primary, #10152e);
+  text-align: center;
+  font-family: Lora;
+  font-size: var(--heading-font-size-small, 24px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: var(--letter-spacing-heading, 1px);
+  text-transform: uppercase;
+  text-align: left;
+}
+.our-experts-sec-all-row h6 {
+  color: var(--color-text-secondary, #262d4d);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--content-line-height-small, 20px); /* 142.857% */
+  letter-spacing: var(--brand-font-letter-spacing-body, 1px);
+  text-align: left;
+}
+.our-experts-sec-all-row p {
+  color: #06121f;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: var(--brand-font-letter-spacing-body, 1px);
+  text-align: left;
+}
+.our-experts-sec-all-row img {
+  border-radius: 50%;
 }
 @media (max-width: 991px) {
 }
