@@ -872,6 +872,14 @@
 .our-experts-sec-all-row img {
   border-radius: 50%;
 }
+.main-Container-img-top {
+  display: flex;
+  height: 160px;
+  padding: 20px 100px;
+}
+.main-Container-img-top img {
+  object-fit: scale-down;
+}
 @media (max-width: 991px) {
   .navbar-mobile .dropdown ul {
     display: block !important;
